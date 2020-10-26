@@ -6,5 +6,5 @@ app = Flask(__name__)
 def goodbunny():
     return render_template("base.html")
 
-if name == "__main__":
-    app.run(debug=false)
+if __name__ == "__main__":
+    app.run(debug=False)
